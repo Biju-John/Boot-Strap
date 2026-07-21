@@ -1,0 +1,77 @@
+1.<div class="container">
+    Content goes here
+</div>
+
+2.<div class="container-fluid">
+    Content goes here
+</div>
+
+3.<div class="container">
+  <div class="row">
+    <div class="col-4">Column 1</div>
+    <div class="col-4">Column 2</div>
+    <div class="col-4">Column 3</div>
+  </div>
+</div>
+
+4.<h1>Main Heading</h1>
+<h3>Sub Heading</h3>
+
+5.<p>This is a paragraph.</p>
+
+6.<h1 class="display-1">Display 1</h1>
+<h1 class="display-2">Display 2</h1>
+<h1 class="display-3">Display 3</h1>
+<h1 class="display-4">Display 4</h1>
+<h1 class="display-5">Display 5</h1>
+<h1 class="display-6">Display 6</h1>
+
+Class	Size	Usage
+.display-1	Largest	Main page title or hero banner
+.display-2	Very Large	Important section heading
+.display-3	Large	Section title
+.display-4	Medium Large	Subsection title
+.display-5	Medium	Smaller heading
+.display-6	Smallest Display	Compact display heading
+
+7.<h2>Bootstrap <small>Version 5</small></h2>
+8.<p>This is <mark>important</mark> text.</p>
+9.<blockquote class="blockquote">
+  <p>Learning never stops.</p>
+</blockquote>
+10.Press <kbd>Ctrl</kbd> + <kbd>C</kbd>
+11.<pre>
+Line 1
+Line 2
+</pre>
+12.Bootstrap provides predefined color classes.
+
+Text Colors
+.text-primary
+.text-success
+.text-danger
+.text-warning
+.text-info
+.text-dark
+.text-light
+Background Colors
+.bg-primary
+.bg-success
+.bg-danger
+.bg-warning
+.bg-dark
+
+Used to quickly color text and backgrounds.
+
+Class	Color	Purpose
+.text-primary	Blue	Primary or important text
+.text-success	Green	Success messages
+.text-danger	Red	Error or danger messages
+.text-warning	Yellow/Orange	Warning messages
+.text-info	Light Blue	Informational messages
+.text-dark	Black/Dark Gray	Dark-colored text
+.text-light	White/Light Gray	Light-colored text on dark backgrounds
+<p class="text-success">Operation completed successfully.</p>
+<div class="bg-primary text-white">
+    Welcome to Bootstrap
+</div>
